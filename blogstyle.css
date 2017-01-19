@@ -1,5 +1,4 @@
 body {
-    direction: rtl;
 }
 
 .flex-container {
@@ -9,10 +8,22 @@ body {
     display: -webkit-flex;
     display: flex;
     flex-direction:column;
+    align:center;
     align-items:center;
-    background-color: lightgrey;
+    margin-left:50px;
+    margin-right:50px;
+    border-radius:10px;
 }
 
 .flex-item {
-    background-color: cornflowerblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:95%;
+    border-radius:10px;
+}
+
+.blog-post{
+    margin-left:10px;
+    margin-bottom:10px;
+    text-align:left;
 }
